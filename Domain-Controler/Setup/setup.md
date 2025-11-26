@@ -24,7 +24,11 @@ One Adapter has to be <strong>ALWAYS</strong> on the Status:
 ```
 "NAT"
 ```
-Your second Network adapter has to be adjusted to for the upcoming DHCP Configuration and the associated new "Network".
+Your second Network adapter has to be adjusted to for the upcoming DHCP Configuration and the associated new "Network" and therefor has to be set to
+
+```
+"Intern Network"
+```
 
 To configure the second Network Adapter, head over into the Server Manager:
 
@@ -96,10 +100,10 @@ Now the tricky part:
 
 > Subnetmask:  255.255.255.0
 
-> Router / Default Gateway: 192.168.0.254 (* Note: It is **VERY** important to set the IP of your DC here in order to let connected Clients communicate through the DC!)
+> Router / Default Gateway: 192.168.0.254 (* Note: It is <strong>VERY</strong> important to set the IP of your DC here in order to let connected Clients communicate through the DC!)
 
-> Configure now and active Scope now
+> Configure now and activate Scope now
 
 Then click on the Root of your Domain again and authorise it.
 ```
-
+The Server Setup has been done now!
