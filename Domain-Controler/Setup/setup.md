@@ -80,14 +80,26 @@ Then do the following steps:
 
 ```
 - schule.local
-  - 192.168.0.254 (eins)
-    - Bereich [...]
+  - 192.168.0.254
+    - Scope [...]
 
-Select the default Bereich and delete it. Create a new one by right clicking on the Domain Root.
+Select the default Scope and delete it. Create a new one by right clicking on the Domain Root.
 ```
 
 Now the tricky part:
 
 ```
+> Scope Name: <As desired but it is recommended to stick to "DHCP">
 
+> Start IP-Address: 192.168.0.2
+  End   IP-Address: 192.168.0.252 (* Note: You can use the full spectrum but this on the otherhand might conflict with the DC-IP!)
+
+> Subnetmask:  255.255.255.0
+
+> Router / Default Gateway: 192.168.0.254 (* Note: It is **VERY** important to set the IP of your DC here in order to let connected Clients communicate through the DC!)
+
+> Configure now and active Scope now
+
+Then click on the Root of your Domain again and authorise it.
 ```
+
