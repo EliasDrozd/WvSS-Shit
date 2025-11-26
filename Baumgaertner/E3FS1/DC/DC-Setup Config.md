@@ -53,6 +53,33 @@ For the Windwos Test Client, use
 Windows-10-packettracer
 ```
 
+## DHCP-Server Configuration
+
+Open 
+```
+DNS-Server
+```
+either via Search or the Server Manager. 
+Then head over to your Domain and open up 
+```
+IPv4
+```
+
+Select the "pre-configured" range and delete it.
+Select your Domain again and register a new Range.
+In the Setup Wizard choose the following:
+
+```
+Name: DHCP
+Describtion: DHCP
+Start IP: 192.168.1.2
+End IP: 192.168.1.252
+Subnetmask: 255.255.255.0 (according to your chosen Network)
+Leave other Options on Default, except you wish to create a reservation for your DC.
+Router: <IP of your DC>
+```
+Now go ahead and selct "IPv4" and activate the IPv4 Range.
+
 ### Client Network Configuration
 
 In Order for the Client to be successfully integrated into your Domain, configure both or the single Networkadapter and change it to 
