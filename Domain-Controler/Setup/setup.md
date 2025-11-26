@@ -74,4 +74,20 @@ To finalize the AD-Setup, hit the yellow Marker within the Server Manager. This 
 
 ## DHCP Configuration
 
-The goal of the Assessment is, to successfully add a Client into your Domain. For the IP-Addresses to not conflict with the school IP-Blocks and intern DHCP-Servers, select 
+The goal of the Assessment is, to successfully add a Client into your Domain. For the IP-Addresses to not conflict with the school IP-Blocks and intern DHCP-Servers, select DHCP-Service Feature within the Server Manager.
+
+Then do the following steps:
+
+```
+- schule.local
+  - 192.168.0.254 (eins)
+    - Bereich [...]
+
+Select the default Bereich and delete it. Create a new one by right clicking on the Domain Root.
+```
+
+Now the tricky part:
+
+```
+
+```
