@@ -21,3 +21,11 @@ rm -r html
 
 touch index.html
 ```
+
+## Tor Configuration
+
+```
+nano /etc/tor/torrc
+
+Hidden Services remove comment
+```
