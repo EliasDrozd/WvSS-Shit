@@ -28,4 +28,6 @@ touch index.html
 nano /etc/tor/torrc
 
 Hidden Services remove comment
+
+nano /var/lib/tor/hidden_service/hostname
 ```
