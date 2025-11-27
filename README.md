@@ -1,4 +1,4 @@
-# WvSS - FS Class Stuff
+# WvSS - E3FS1 Repository
 
 This repo holds Data and usefull stuff for the Class E3FS1
 
