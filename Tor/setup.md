@@ -1,6 +1,9 @@
 # VM Installation
 
-## Basics
+## Basic Setup
+
+For TOR, we use any Linux Distro available to us.
+As usual, update the Client (* Note: <strong>DO NOT</strong> upgrade the VM, as this might freeze, end or delete necessary Services!) 
 
 ```
 apt update
