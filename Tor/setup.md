@@ -35,3 +35,14 @@ nano /var/lib/tor/hidden_service/hostname
 ## Install Onion Router locally
 
 paste the code from the hostname into it 
+
+
+## Install Onionshare
+
+```
+apt-get install onionshare
+
+open onionshare:
+
+onionshare
+```
