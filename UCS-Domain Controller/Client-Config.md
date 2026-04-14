@@ -9,7 +9,7 @@ Headover into the Networkadapter Configuration > Edit IPv4 and switch the IP Con
 For the IP Configuration of the AD Client use the following schema:
 
 ```
-IPv4: 10.16.<Room Number>.<PC Number + 100>
+IPv4: 10.16.<Room Number>.<PC Number +100>
 Subnetmask: 255.0.0.0 > /8 is important!
 Gateway:    10.16.1.245
 ```
@@ -22,3 +22,12 @@ Primary DNS Server: <UCS-DC IP Adress>
 ```
 
 Now save and apply the changes!
+
+## Network Adpater Switch
+
+Now it is important to switch over from `NAT` to `Netzwerkbrücke`.
+
+
+# UCS DNS Adaptation
+
+This is a very important change in the Networking Configuration Files
