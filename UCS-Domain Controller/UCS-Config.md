@@ -1,5 +1,5 @@
 # UCS Initial Configuration
 
-`UCS-Instalaltion`
+#`Basis Setup` 
 
 After importing the .OVA, set the forgein Language to `Deutsch` and location to `Mannheim`.
